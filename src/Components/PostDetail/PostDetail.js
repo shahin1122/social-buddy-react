@@ -10,7 +10,7 @@ const PostDetail = () => {
         .then(res=> res.json())
         .then(data => setPost(data))
 
-    },[])
+    },[id])
     return (
         <div>
             <h3>This is post detail : {id}</h3>
