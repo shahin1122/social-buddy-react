@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.post{
+    border: 10px solid greenyellow;
+    background-color: grey;
+    color: khaki;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 45%;
+    float: left;
+
+}
+
+.post button{
+    padding: 10px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    background-color: crimson;
+    margin: 10px;
+
+}
